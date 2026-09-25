@@ -1,0 +1,7 @@
+NODE_ENV=production
+PORT=8080
+
+MONGO_URI=your_production_mongodb_url
+
+API_URL=https://api.example.com
+API_KEY=your_production_api_key
