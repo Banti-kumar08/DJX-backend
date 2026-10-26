@@ -13,7 +13,6 @@ const router = Router();
 router.post("/register", userRegister);
 router.post("/login", userLogin);
 router.post("/refresh-token", refreshAccessToken);
-
 router.post("/logout", verifyJWT, userLogout);
 router.get("/me", verifyJWT, getCurrentUser);
 
